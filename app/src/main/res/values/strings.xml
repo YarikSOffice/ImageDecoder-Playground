@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImageDecoderPlayground</string>
+    <string name="title">Trying to scale and crop a bitmap in a single step using ImageDecoder (API 28).</string>
+    <string name="description_first"><![CDATA[<b>First case.</b> Steps:<br>1. Apply scaling making the image size be 1/2 of the initial size using decoder.setTargetSampleSize.<br>2. Apply cropping making the final height be 1/2 of the scaled height from the previous step.<br><br><font color="green">It works as expected.</font> ]]></string>
+    <string name="description_second"><![CDATA[<b>Second case.</b> Steps:<br>1. Apply scaling making the final width be 500px (keeping the aspect ratio) using decoder.setTargetSize.<br>2. Apply cropping making the final height be 1/2 of the scaled height from the previous step.<br><br><font color="red">Doesn\'t work.</font>]]></string>
+    <string name="choose_image">Choose Image</string>
+    <string name="preview_title">Preview</string>
+</resources>
